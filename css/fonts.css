@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Bagel Fat One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../assets/fonts/BagelFatOne-400.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(../assets/fonts/Figtree-400.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Zen Maru Gothic';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../assets/fonts/ZenMaruGothic-700-jp.woff2) format('woff2');
+}

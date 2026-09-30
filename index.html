@@ -1,0 +1,573 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MOCHIMOCHI — Mochi ice cream, delivered frozen</title>
+  <meta name="description" content="Hand-made mochi ice cream in eight flavours, delivered frozen in insulated boxes of 6, 12 or 24. From €18. Build a box or subscribe monthly.">
+  <meta name="theme-color" content="#FFF1DC">
+  <meta property="og:title" content="MOCHIMOCHI — Mochi ice cream that squishes back">
+  <meta property="og:description" content="Eight hand-made flavours, delivered frozen. Build your box from €18.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M50 12C74 12 92 30 92 55c0 20-17 33-42 33S8 75 8 55C8 30 26 12 50 12Z' fill='%23FF5A4E' stroke='%232A1420' stroke-width='6'/%3E%3Cpath d='M24 44c3-14 14-22 28-24' fill='none' stroke='%23fff' stroke-opacity='.7' stroke-width='6' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="preload" href="assets/fonts/BagelFatOne-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/Figtree-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id="i-arrow-right" viewBox="0 0 256 256"><path fill="currentColor" d="m224.49 136.49l-72 72a12 12 0 0 1-17-17L187 140H40a12 12 0 0 1 0-24h147l-51.49-51.52a12 12 0 0 1 17-17l72 72a12 12 0 0 1-.02 17.01"/></symbol><symbol id="i-menu" viewBox="0 0 256 256"><path fill="currentColor" d="M228 128a12 12 0 0 1-12 12H40a12 12 0 0 1 0-24h176a12 12 0 0 1 12 12M40 76h176a12 12 0 0 0 0-24H40a12 12 0 0 0 0 24m176 104H40a12 12 0 0 0 0 24h176a12 12 0 0 0 0-24"/></symbol><symbol id="i-close" viewBox="0 0 256 256"><path fill="currentColor" d="M208.49 191.51a12 12 0 0 1-17 17L128 145l-63.51 63.49a12 12 0 0 1-17-17L111 128L47.51 64.49a12 12 0 0 1 17-17L128 111l63.51-63.52a12 12 0 0 1 17 17L145 128Z"/></symbol><symbol id="i-plus" viewBox="0 0 256 256"><path fill="currentColor" d="M228 128a12 12 0 0 1-12 12h-76v76a12 12 0 0 1-24 0v-76H40a12 12 0 0 1 0-24h76V40a12 12 0 0 1 24 0v76h76a12 12 0 0 1 12 12"/></symbol><symbol id="i-minus" viewBox="0 0 256 256"><path fill="currentColor" d="M228 128a12 12 0 0 1-12 12H40a12 12 0 0 1 0-24h176a12 12 0 0 1 12 12"/></symbol><symbol id="i-star" viewBox="0 0 256 256"><path fill="currentColor" d="m234.29 114.85l-45 38.83L203 211.75a16.4 16.4 0 0 1-24.5 17.82L128 198.49l-50.53 31.08A16.4 16.4 0 0 1 53 211.75l13.76-58.07l-45-38.83A16.46 16.46 0 0 1 31.08 86l59-4.76l22.76-55.08a16.36 16.36 0 0 1 30.27 0l22.75 55.08l59 4.76a16.46 16.46 0 0 1 9.37 28.86Z"/></symbol><symbol id="i-snow" viewBox="0 0 256 256"><path fill="currentColor" d="M227.65 149.14a12 12 0 0 1-8.79 14.51l-20.67 5.08l5.4 20.16a12 12 0 0 1-23.18 6.22l-7.29-27.2L140 148.78V187l20.48 20.48a12 12 0 0 1-17 17L128 209l-15.51 15.52a12 12 0 0 1-17-17L116 187v-38.22l-33.12 19.13l-7.29 27.2a12 12 0 0 1-23.18-6.22l5.4-20.16l-20.67-5.08a12 12 0 1 1 5.72-23.3l27.89 6.85L104 128l-33.25-19.2l-27.89 6.85A11.8 11.8 0 0 1 40 116a12 12 0 0 1-2.85-23.65l20.67-5.08l-5.4-20.16a12 12 0 0 1 23.18-6.22l7.29 27.2L116 107.21V69L95.52 48.48a12 12 0 0 1 17-17L128 47l15.51-15.52a12 12 0 1 1 17 17L140 69v38.24l33.12-19.12l7.29-27.2a12 12 0 0 1 23.18 6.22l-5.4 20.16l20.67 5.08A12 12 0 0 1 216 116a11.8 11.8 0 0 1-2.87-.35l-27.89-6.85L152 128l33.25 19.2l27.89-6.85a12 12 0 0 1 14.51 8.79"/></symbol><symbol id="i-truck" viewBox="0 0 256 256"><path fill="currentColor" d="m255.14 115.54l-14-35A19.89 19.89 0 0 0 222.58 68H196v-4a12 12 0 0 0-12-12H32a20 20 0 0 0-20 20v112a20 20 0 0 0 20 20h14.06a36 36 0 0 0 67.88 0h44.12a36 36 0 0 0 67.88 0H236a20 20 0 0 0 20-20v-64a21.7 21.7 0 0 0-.86-4.46M196 92h23.88l6.4 16H196ZM80 204a12 12 0 1 1 12-12a12 12 0 0 1-12 12m92-41.92A36.32 36.32 0 0 0 158.06 180h-44.12a36 36 0 0 0-67.88 0H36v-40h136Zm0-46.08H36V76h136Zm20 88a12 12 0 1 1 12-12a12 12 0 0 1-12 12m40-24h-6.06A36.09 36.09 0 0 0 196 156.23V132h36Z"/></symbol><symbol id="i-cold" viewBox="0 0 256 256"><path fill="currentColor" d="M160 56a52 52 0 0 0-104 0v94.69a64 64 0 1 0 104 0Zm-52 172a40 40 0 0 1-30.91-65.39a12 12 0 0 0 2.91-7.83V56a28 28 0 0 1 56 0v98.77a12 12 0 0 0 2.77 7.68A40 40 0 0 1 108 228M246.14 81.52l-14.72 4.79l9.1 12.52a12 12 0 1 1-19.42 14.11l-9.1-12.52l-9.1 12.52a12 12 0 1 1-19.42-14.11l9.1-12.52l-14.72-4.79a12 12 0 1 1 7.41-22.82L200 63.48V48a12 12 0 0 1 24 0v15.48l14.73-4.78a12 12 0 1 1 7.41 22.82M132 188a24 24 0 1 1-36-20.78V132a12 12 0 0 1 24 0v35.22A24 24 0 0 1 132 188"/></symbol><symbol id="i-check" viewBox="0 0 256 256"><path fill="currentColor" d="m232.49 80.49l-128 128a12 12 0 0 1-17 0l-56-56a12 12 0 1 1 17-17L96 183L215.51 63.51a12 12 0 0 1 17 17Z"/></symbol><symbol id="i-bag" viewBox="0 0 256 256"><path fill="currentColor" d="M216 36H40a20 20 0 0 0-20 20v144a20 20 0 0 0 20 20h176a20 20 0 0 0 20-20V56a20 20 0 0 0-20-20m-4 160H44V60h168ZM76 88a12 12 0 0 1 24 0a28 28 0 0 0 56 0a12 12 0 0 1 24 0a52 52 0 0 1-104 0"/></symbol><symbol id="i-down" viewBox="0 0 256 256"><path fill="currentColor" d="m216.49 104.49l-80 80a12 12 0 0 1-17 0l-80-80a12 12 0 0 1 17-17L128 159l71.51-71.52a12 12 0 0 1 17 17Z"/></symbol><symbol id="i-shuffle" viewBox="0 0 256 256"><path fill="currentColor" d="M240.49 175.51a12 12 0 0 1 0 17l-24 24a12 12 0 0 1-17-17L203 196h-2.09a76.17 76.17 0 0 1-61.85-31.83l-41.68-58.39A52.1 52.1 0 0 0 55.06 84H32a12 12 0 0 1 0-24h23.06a76.17 76.17 0 0 1 61.85 31.83l41.71 58.39A52.1 52.1 0 0 0 200.94 172H203l-3.52-3.51a12 12 0 0 1 17-17Zm-95.62-72.62a12 12 0 0 0 16.93-1.13A52 52 0 0 1 200.94 84H203l-3.52 3.51a12 12 0 0 0 17 17l24-24a12 12 0 0 0 0-17l-24-24a12 12 0 0 0-17 17L203 60h-2.09a76 76 0 0 0-57.2 26a12 12 0 0 0 1.16 16.89m-33.74 50.22a12 12 0 0 0-16.93 1.13A52 52 0 0 1 55.06 172H32a12 12 0 0 0 0 24h23.06a76 76 0 0 0 57.2-26a12 12 0 0 0-1.13-16.89"/></symbol><symbol id="i-reset" viewBox="0 0 256 256"><path fill="currentColor" d="M228 128a100 100 0 0 1-98.66 100H128a99.4 99.4 0 0 1-68.62-27.29a12 12 0 0 1 16.48-17.45a76 76 0 1 0-1.57-109c-.13.13-.25.25-.39.37L54.89 92H72a12 12 0 0 1 0 24H24a12 12 0 0 1-12-12V56a12 12 0 0 1 24 0v20.72l21.48-19.66A100 100 0 0 1 228 128"/></symbol><symbol id="i-spark" viewBox="0 0 256 256"><path fill="currentColor" d="M208 144a15.78 15.78 0 0 1-10.42 14.94L146 178l-19 51.62a15.92 15.92 0 0 1-29.88 0L78 178l-51.62-19a15.92 15.92 0 0 1 0-29.88L78 110l19-51.62a15.92 15.92 0 0 1 29.88 0L146 110l51.62 19A15.78 15.78 0 0 1 208 144m-56-96h16v16a8 8 0 0 0 16 0V48h16a8 8 0 0 0 0-16h-16V16a8 8 0 0 0-16 0v16h-16a8 8 0 0 0 0 16m88 32h-8v-8a8 8 0 0 0-16 0v8h-8a8 8 0 0 0 0 16h8v8a8 8 0 0 0 16 0v-8h8a8 8 0 0 0 0-16"/></symbol><symbol id="i-plane" viewBox="0 0 256 256"><path fill="currentColor" d="M230.14 25.86a20 20 0 0 0-19.57-5.11l-.22.07L18.44 79a20 20 0 0 0-3.06 37.25L99 157l40.71 83.65a19.81 19.81 0 0 0 18 11.38c.57 0 1.15 0 1.73-.07a19.82 19.82 0 0 0 17.56-14.4l58.18-191.91a1.4 1.4 0 0 0 .07-.22a20 20 0 0 0-5.11-19.57m-73.23 195.21l-34.37-70.64l46-45.95a12 12 0 0 0-17-17l-46 46l-70.61-34.39L210 46Z"/></symbol><symbol id="i-pause" viewBox="0 0 256 256"><path fill="currentColor" d="M200 28h-40a20 20 0 0 0-20 20v160a20 20 0 0 0 20 20h40a20 20 0 0 0 20-20V48a20 20 0 0 0-20-20m-4 176h-32V52h32ZM96 28H56a20 20 0 0 0-20 20v160a20 20 0 0 0 20 20h40a20 20 0 0 0 20-20V48a20 20 0 0 0-20-20m-4 176H60V52h32Z"/></symbol><symbol id="i-box" viewBox="0 0 256 256"><path fill="currentColor" d="m225.6 62.64l-88-48.17a19.91 19.91 0 0 0-19.2 0l-88 48.17A20 20 0 0 0 20 80.19v95.62a20 20 0 0 0 10.4 17.55l88 48.17a19.89 19.89 0 0 0 19.2 0l88-48.17a20 20 0 0 0 10.4-17.55V80.19a20 20 0 0 0-10.4-17.55M128 36.57L200 76l-21.43 11.73l-72-39.42Zm0 78.83L56 76l25.56-14l72 39.41ZM44 96.79l72 39.4v76.67l-72-39.42Zm96 116.07v-76.67l24-13.13V152a12 12 0 0 0 24 0v-42.08l24-13.13v76.65Z"/></symbol><symbol id="i-clock" viewBox="0 0 256 256"><path fill="currentColor" d="M128 20a108 108 0 1 0 108 108A108.12 108.12 0 0 0 128 20m0 192a84 84 0 1 1 84-84a84.09 84.09 0 0 1-84 84m68-84a12 12 0 0 1-12 12h-56a12 12 0 0 1-12-12V72a12 12 0 0 1 24 0v44h44a12 12 0 0 1 12 12"/></symbol><symbol id="i-leaf" viewBox="0 0 256 256"><path fill="currentColor" d="M255.62 51.65a12 12 0 0 0-11.27-11.27c-53.27-3.13-96.2 13.36-114.84 44.14c-12.14 20-12.56 44.17-1.46 67.3a75.1 75.1 0 0 0-12.28 23l-12.66-12.66c7.19-16.77 6.43-34.11-2.4-48.69C86.73 90.36 54.89 78 15.55 80.27A12 12 0 0 0 4.28 91.55C2 130.89 14.36 162.73 37.45 176.71a49.76 49.76 0 0 0 26 7.27a57.5 57.5 0 0 0 22.7-4.87L112 205v23a12 12 0 0 0 24 0v-29.49a51.63 51.63 0 0 1 9.49-29.95a76.8 76.8 0 0 0 32.1 7.39a64.9 64.9 0 0 0 33.89-9.46c30.77-18.64 47.28-61.57 44.14-114.84M49.88 156.18c-13.19-8-21.18-27.46-21.83-52.13c24.67.65 44.14 8.64 52.13 21.83a26 26 0 0 1 3.63 17l-11.33-11.37a12 12 0 0 0-17 17l11.34 11.34a26.27 26.27 0 0 1-16.94-3.67M199.05 146c-10.66 6.45-23 7.67-35.81 3.76l37.25-37.24a12 12 0 0 0-17-17l-37.25 37.24C142.37 120 143.59 107.61 150 97c12.7-21 42.65-33 81.32-33h.68c.14 39-11.86 69.18-32.95 82"/></symbol><symbol id="i-heart" viewBox="0 0 256 256"><path fill="currentColor" d="M240 102c0 70-103.79 126.66-108.21 129a8 8 0 0 1-7.58 0C119.79 228.66 16 172 16 102a62.07 62.07 0 0 1 62-62c20.65 0 38.73 8.88 50 23.89C139.27 48.88 157.35 40 178 40a62.07 62.07 0 0 1 62 62"/></symbol><symbol id="i-pin" viewBox="0 0 256 256"><path fill="currentColor" d="M128 60a44 44 0 1 0 44 44a44.05 44.05 0 0 0-44-44m0 64a20 20 0 1 1 20-20a20 20 0 0 1-20 20m0-112a92.1 92.1 0 0 0-92 92c0 77.36 81.64 135.4 85.12 137.83a12 12 0 0 0 13.76 0a259 259 0 0 0 42.18-39C205.15 170.57 220 136.37 220 104a92.1 92.1 0 0 0-92-92m31.3 174.71a249.4 249.4 0 0 1-31.3 30.18a249.4 249.4 0 0 1-31.3-30.18C80 167.37 60 137.31 60 104a68 68 0 0 1 136 0c0 33.31-20 63.37-36.7 82.71"/></symbol></svg>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="mochi" viewBox="0 0 100 100">
+      <path d="M50 12C74 12 92 30 92 55c0 20-17 33-42 33S8 75 8 55C8 30 26 12 50 12Z" fill="var(--m,#8DBB45)" stroke="#2A1420" stroke-width="4.5" stroke-linejoin="round"/>
+      <g fill="var(--sp,transparent)"><circle cx="30" cy="48" r="2"/><circle cx="42" cy="30" r="1.8"/><circle cx="60" cy="28" r="2"/><circle cx="72" cy="42" r="1.8"/><circle cx="52" cy="46" r="2"/><circle cx="36" cy="64" r="2"/><circle cx="64" cy="62" r="2.1"/><circle cx="80" cy="60" r="1.7"/><circle cx="50" cy="72" r="1.8"/><circle cx="22" cy="62" r="1.6"/><circle cx="46" cy="18" r="1.4"/><circle cx="70" cy="76" r="1.6"/></g>
+      <path d="M22 46c3-14 14-23 29-25" fill="none" stroke="#fff" stroke-opacity=".6" stroke-width="5" stroke-linecap="round"/>
+      <path d="M40 84c7 3 14 3 21 0" fill="none" stroke="#2A1420" stroke-opacity=".28" stroke-width="3" stroke-linecap="round"/>
+    </symbol>
+  </defs>
+</svg>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="top">
+  <div class="nav__bar">
+    <a class="logo" href="#top" aria-label="MOCHIMOCHI, back to top">
+      <svg class="logo__mark" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 10C75 10 94 29 94 55c0 21-18 35-44 35S6 76 6 55C6 29 25 10 50 10Z" fill="#FF5A4E" stroke="#2A1420" stroke-width="7" stroke-linejoin="round"/><path d="M22 46c3-15 15-24 30-26" fill="none" stroke="#fff" stroke-opacity=".75" stroke-width="7" stroke-linecap="round"/></svg>
+      <span class="logo__word">mochimochi</span>
+    </a>
+    <nav class="nav__links" aria-label="Main">
+      <a href="#flavours">Flavours</a>
+      <a href="#making">How it's made</a>
+      <a href="#delivery">Delivery</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <div class="nav__actions">
+      <a class="basket" href="#build" id="basket" aria-label="Your box: 0 mochi picked">
+        <svg class="ic" aria-hidden="true"><use href="#i-box"/></svg>
+        <span class="basket__n" id="basketN">0</span>
+      </a>
+      <a class="btn btn--primary btn--sm nav__cta" href="#build" data-magnetic>Build your box</a>
+      <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Open menu">
+        <svg class="ic ic--open" aria-hidden="true"><use href="#i-menu"/></svg>
+        <svg class="ic ic--close" aria-hidden="true"><use href="#i-close"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="menu" id="menu" hidden>
+  <nav aria-label="Mobile">
+    <a href="#flavours"><span>01</span>Flavours</a>
+    <a href="#making"><span>02</span>How it's made</a>
+    <a href="#build"><span>03</span>Build your box</a>
+    <a href="#delivery"><span>04</span>Delivery</a>
+    <a href="#reviews"><span>05</span>Reviews</a>
+    <a href="#subscribe"><span>06</span>Subscribe</a>
+    <a href="#faq"><span>07</span>FAQ</a>
+  </nav>
+  <p class="menu__foot">Hand-made in Rotterdam. Delivered frozen.</p>
+</div>
+
+<noscript><p class="wrap" style="padding:110px 0 0;font-weight:700">Turn on JavaScript to pick flavours and build your box.</p></noscript>
+<main id="main">
+
+<!-- ============ 1. HERO ============ -->
+<section class="hero" id="hero" aria-labelledby="hero-title">
+  <div class="hero__copy">
+    <p class="eyebrow eyebrow--sticker"><svg class="ic" aria-hidden="true"><use href="#i-snow"/></svg> Hand-made in small batches</p>
+    <h1 id="hero-title" class="hero__title"><span class="line">Mochi ice cream</span> <span class="line">that <em>squishes</em></span> <span class="line">back.</span></h1>
+    <p class="lede">Eight flavours, wrapped by hand in soft rice dough and delivered frozen to your door. Boxes of 6, 12 or 24, from €18.</p>
+    <div class="hero__cta">
+      <a class="btn btn--primary btn--lg" href="#build" data-magnetic><span>Build your box</span><svg class="ic" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+      <a class="btn btn--ghost btn--lg" href="#subscribe" data-magnetic><span>Subscribe<span class="hide-sm"> monthly</span></span></a>
+    </div>
+    <ul class="hero__facts" aria-label="Quick facts">
+      <li><strong>-18°C</strong> on arrival</li>
+      <li><strong>8</strong> flavours</li>
+      <li><strong>Free</strong> delivery from 12</li>
+    </ul>
+  </div>
+
+  <div class="hero__stage" id="stage">
+    <div class="hero__sun" aria-hidden="true"></div>
+    <canvas id="mochiCanvas" role="img" aria-label="Eight mochi ice creams bouncing around. Poke, drag or throw them with your mouse or finger."></canvas>
+    <div class="hero__fallback" id="fallback" hidden aria-hidden="true"></div>
+    <svg class="hero__badge" viewBox="0 0 200 200" aria-hidden="true">
+      <defs><path id="badgePath" d="M100 100m-74 0a74 74 0 1 1 148 0a74 74 0 1 1 -148 0"/></defs>
+      <circle cx="100" cy="100" r="98" fill="#FFDA3D" stroke="#2A1420" stroke-width="4"/>
+      <text class="badge__ring"><textPath href="#badgePath" startOffset="0" textLength="455" lengthAdjust="spacing">hand-made · small batch · frozen fresh ·</textPath></text>
+      <text x="100" y="98" text-anchor="middle" class="badge__big">もち</text>
+      <text x="100" y="128" text-anchor="middle" class="badge__small">mochi</text>
+    </svg>
+    <p class="hero__hint" id="hint"><svg class="ic" aria-hidden="true"><use href="#i-spark"/></svg><span id="hintText">Go on, poke one. Drag them, too.</span></p>
+    <button class="shake" id="shakeBtn" type="button"><svg class="ic" aria-hidden="true"><use href="#i-shuffle"/></svg>Shake them</button>
+  </div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee-wrap" aria-hidden="true"><div class="marquee">
+  <div class="marquee__track">
+    <span>Chewy outside</span><svg class="ic"><use href="#i-spark"/></svg>
+    <span lang="ja">もちもち</span><svg class="ic"><use href="#i-spark"/></svg>
+    <span>Cold inside</span><svg class="ic"><use href="#i-spark"/></svg>
+    <span>Hand-made</span><svg class="ic"><use href="#i-spark"/></svg>
+    <span>Delivered frozen</span><svg class="ic"><use href="#i-spark"/></svg>
+    <span lang="ja">手作り</span><svg class="ic"><use href="#i-spark"/></svg>
+    <span>Chewy outside</span><svg class="ic"><use href="#i-spark"/></svg>
+    <span lang="ja">もちもち</span><svg class="ic"><use href="#i-spark"/></svg>
+    <span>Cold inside</span><svg class="ic"><use href="#i-spark"/></svg>
+    <span>Hand-made</span><svg class="ic"><use href="#i-spark"/></svg>
+    <span>Delivered frozen</span><svg class="ic"><use href="#i-spark"/></svg>
+    <span lang="ja">手作り</span><svg class="ic"><use href="#i-spark"/></svg>
+  </div>
+</div></div>
+
+<!-- ============ 2. FLAVOURS ============ -->
+<section class="flavours" id="flavours" aria-labelledby="flavours-title">
+  <div class="wrap">
+    <header class="section-head" data-reveal>
+      <p class="eyebrow">Eight flavours</p>
+      <h2 id="flavours-title" class="h2">Pick one. The whole page follows.</h2>
+    </header>
+
+    <div class="fl">
+      <div class="fl__art" id="flArt">
+        <svg id="flSvg" viewBox="0 0 600 600" aria-hidden="true"></svg>
+      </div>
+
+      <article class="fl__card card" id="flCard">
+        <p class="fl__count"><span id="flIdx">01</span><span class="fl__of"> / 08</span></p>
+        <h3 class="fl__name" id="flName">Matcha</h3>
+        <p class="fl__jp"><span lang="ja" id="flJp">抹茶</span><span id="flRomaji">matcha</span></p>
+        <ul class="fl__words" id="flWords" aria-label="Tastes like"></ul>
+        <p class="fl__note" id="flNote"></p>
+        <dl class="meters" id="flMeters">
+          <div><dt>Sweet</dt><dd data-m="sweet"></dd></div>
+          <div><dt>Tang</dt><dd data-m="tang"></dd></div>
+          <div><dt>Creamy</dt><dd data-m="creamy"></dd></div>
+        </dl>
+        <p class="fl__meta"><strong>Made with</strong> <span id="flMade"></span><br><strong>Pairs with</strong> <span id="flPairs"></span></p>
+        <div class="fl__actions">
+          <button class="btn btn--primary" type="button" id="flAdd" data-magnetic><svg class="ic" aria-hidden="true"><use href="#i-plus"/></svg><span>Add to my box</span></button>
+          <span class="fl__added" id="flAdded" aria-hidden="true"></span>
+        </div>
+      </article>
+    </div>
+
+    <fieldset class="picker" id="picker">
+      <legend class="sr-only">Choose a flavour</legend>
+    </fieldset>
+    <p class="sr-only" id="flLive" role="status" aria-live="polite"></p>
+  </div>
+</section>
+
+<!-- ============ 3. HOW IT'S MADE ============ -->
+<section class="making" id="making" aria-labelledby="making-title">
+  <div class="making__pin" id="makingPin">
+    <div class="making__grid">
+      <div class="making__text">
+        <p class="eyebrow">How it's made</p>
+        <h2 id="making-title" class="h2">From rice to frozen in four steps.</h2>
+        <ol class="steps" id="steps">
+          <li class="step is-active" data-step="0">
+            <span class="step__num">01</span>
+            <h3 class="step__title">Rice</h3>
+            <p>Short-grain glutinous rice, soaked overnight and steamed until every grain is glossy and sticky. It smells like warm porridge.</p>
+            <span class="step__chip">Steamed for 40 minutes</span>
+          </li>
+          <li class="step" data-step="1">
+            <span class="step__num">02</span>
+            <h3 class="step__title">Mochi</h3>
+            <p>While it is still hot, the rice is pounded into one smooth, stretchy dough. We turn it and pound it again, until it pulls like warm taffy.</p>
+            <span class="step__chip">Pounded by hand and machine</span>
+          </li>
+          <li class="step" data-step="2">
+            <span class="step__num">03</span>
+            <h3 class="step__title">Filling</h3>
+            <p>A scoop of ice cream goes in the middle of a thin disc of dough. We pinch it shut in one motion, before anything has a chance to melt.</p>
+            <span class="step__chip">Wrapped in under 10 seconds</span>
+          </li>
+          <li class="step" data-step="3">
+            <span class="step__num">04</span>
+            <h3 class="step__title">Frozen</h3>
+            <p>Each ball drops into a blast freezer and sets hard in an hour. Then it is packed cold, so the dough stays soft and the cream stays cold.</p>
+            <span class="step__chip">-25°C blast freeze</span>
+          </li>
+        </ol>
+        <ol class="making__dots" aria-hidden="true"><li></li><li></li><li></li><li></li></ol>
+      </div>
+
+      <div class="making__stage">
+        <figure class="polaroid" id="polaroid" aria-hidden="true">
+          <img class="polaroid__img" data-for="1" src="assets/stretch.webp" width="900" height="605" alt="" loading="lazy" decoding="async">
+          <img class="polaroid__img" data-for="2" src="assets/inside.webp" width="900" height="605" alt="" loading="lazy" decoding="async">
+        </figure>
+        <svg class="mk" id="mk" viewBox="0 0 600 600" role="img" aria-label="Illustration: rice grains fall into a wooden bowl, get pounded into dough, wrapped around a scoop of ice cream, then frozen.">
+          <defs>
+            <clipPath id="mkClip"><circle cx="300" cy="300" r="286"/></clipPath>
+          </defs>
+          <circle id="mkDisc" cx="300" cy="300" r="286" fill="#fff" fill-opacity=".38"/>
+          <g clip-path="url(#mkClip)">
+            <!-- steam -->
+            <g id="mkSteam" fill="none" stroke="#2A1420" stroke-width="6" stroke-linecap="round" opacity="0">
+              <path class="steam" d="M230 300c-16-24 16-38 0-62s14-38 0-60"/>
+              <path class="steam" d="M300 290c-16-24 16-38 0-62s14-38 0-60"/>
+              <path class="steam" d="M370 300c-16-24 16-38 0-62s14-38 0-60"/>
+            </g>
+            <!-- bowl back -->
+            <g id="mkBowl">
+              <ellipse cx="300" cy="392" rx="196" ry="30" fill="#7A4A22" stroke="#2A1420" stroke-width="6"/>
+              <g id="mkGrains"></g>
+              <!-- dough sits between back and front -->
+              <g id="mkDoughWrap" transform="translate(300 350)">
+                <g id="mkDough" opacity="0">
+                  <path id="mkDoughShape" d="M-118 22C-126-62-52-116 2-116C64-116 128-62 116 22C106 74 42 96 0 96C-52 96-106 74-118 22Z" fill="#FFFDF5" stroke="#2A1420" stroke-width="6" stroke-linejoin="round"/>
+                  <path d="M-84-10C-76-50-40-78-2-84" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" opacity=".85"/>
+                  <g id="mkDoughDots" fill="#4E7A1E" opacity="0"><circle cx="-40" cy="-20" r="3.5"/><circle cx="30" cy="-46" r="3.5"/><circle cx="62" cy="-4" r="3.5"/><circle cx="-8" cy="20" r="3.5"/><circle cx="-70" cy="30" r="3.5"/><circle cx="20" cy="56" r="3.5"/><circle cx="84" cy="36" r="3.5"/><circle cx="-24" cy="-64" r="3"/><circle cx="-92" cy="-6" r="3"/></g>
+                </g>
+              </g>
+              <path d="M104 392c0 96 76 154 196 154s196-58 196-154c-70 20-130 30-196 30S174 412 104 392Z" fill="#C58B4E" stroke="#2A1420" stroke-width="6" stroke-linejoin="round"/>
+              <path d="M150 440c30 22 68 34 110 36" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="8" stroke-linecap="round"/>
+            </g>
+            <!-- scoop -->
+            <g id="mkScoop" transform="translate(300 -200)">
+              <path d="M-66 8a66 66 0 0 1 132 0c0 10-4 16-10 20c4 8 0 16-10 16c-4 10-14 12-20 6c-6 8-18 8-22 0c-8 6-18 4-22-6c-10 0-14-8-10-16c-6-4-10-10-10-20Z" fill="#E6F2B4" stroke="#2A1420" stroke-width="6" stroke-linejoin="round"/>
+              <path d="M-46-14c6-22 26-36 48-38" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity=".9"/>
+              <path d="M-20 14c14 6 30 6 44 0" fill="none" stroke="#2A1420" stroke-opacity=".18" stroke-width="5" stroke-linecap="round"/>
+            </g>
+            
+            <!-- frost + thermometer -->
+            <g id="mkFrost" opacity="0">
+              <circle id="mkRing" cx="300" cy="330" r="150" fill="none" stroke="#fff" stroke-width="5" stroke-dasharray="4 18" stroke-linecap="round"/>
+              <g id="mkFlakes" fill="#fff"></g>
+            </g>
+            <g id="mkThermo" opacity="0" transform="translate(478 0)">
+              <rect x="-22" y="150" width="44" height="270" rx="22" fill="#FFF1DC" stroke="#2A1420" stroke-width="6"/>
+              <rect id="mkMerc" x="-9" y="160" width="18" height="250" rx="9" fill="#FF5A4E"/>
+              <circle cx="0" cy="436" r="34" fill="#FF5A4E" stroke="#2A1420" stroke-width="6"/>
+              <text id="mkTemp" x="0" y="138" text-anchor="middle" font-family="'Bagel Fat One', sans-serif" font-size="34" fill="#FFF1DC">20°</text>
+            </g>
+          </g>
+          <circle cx="300" cy="300" r="286" fill="none" stroke="#2A1420" stroke-width="6"/>
+          <g id="mkMallet" transform="translate(300 -170)">
+            <rect x="-13" y="-120" width="26" height="160" rx="13" fill="#D9A45E" stroke="#2A1420" stroke-width="6"/>
+            <rect x="-88" y="20" width="176" height="96" rx="34" fill="#C58B4E" stroke="#2A1420" stroke-width="6"/>
+            <path d="M-62 46h60" fill="none" stroke="#fff" stroke-opacity=".4" stroke-width="8" stroke-linecap="round"/>
+            <path d="M-88 68h176" fill="none" stroke="#2A1420" stroke-opacity=".25" stroke-width="5"/>
+          </g>
+          </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 4. BUILD YOUR BOX ============ -->
+<section class="build" id="build" aria-labelledby="build-title">
+  <div class="wrap">
+    <header class="section-head" data-reveal>
+      <p class="eyebrow">Build your box</p>
+      <h2 id="build-title" class="h2">Choose a size, then fill it your way.</h2>
+      <p class="lede">Mix any flavours you like. Six of one, or one of each and a few extras of the one you can't stop thinking about.</p>
+    </header>
+
+    <div class="builder" id="builder">
+      <div class="builder__controls">
+        <fieldset class="sizes" id="sizes">
+          <legend class="step-label"><span>1</span> Pick a size</legend>
+          <div class="sizes__grid" id="sizesGrid"></div>
+        </fieldset>
+
+        <div class="flist">
+          <div class="flist__head">
+            <h3 class="step-label"><span>2</span> Add flavours</h3>
+            <div class="flist__tools">
+              <button class="btn btn--ghost btn--sm" type="button" id="bShuffle"><svg class="ic" aria-hidden="true"><use href="#i-shuffle"/></svg>Surprise me</button>
+              <button class="btn btn--ghost btn--sm" type="button" id="bClear"><svg class="ic" aria-hidden="true"><use href="#i-reset"/></svg>Clear</button>
+            </div>
+          </div>
+          <ul class="flist__rows" id="bList"></ul>
+        </div>
+      </div>
+
+      <aside class="builder__box" aria-label="Your box">
+        <div class="bbox card" id="bbox">
+          <div class="bbox__top">
+            <p class="bbox__count" aria-hidden="true"><span id="bCount">0</span><span class="bbox__of"> / <span id="bSize">12</span></span></p>
+            <p class="bbox__label">mochi in your box</p>
+          </div>
+          <div class="tray" id="tray" aria-hidden="true"></div>
+          <div class="meter" aria-hidden="true"><span id="bMeter"></span></div>
+          <p class="bbox__status" id="bStatus" role="status" aria-live="polite">Pick a size and start adding.</p>
+          <dl class="bbox__price">
+            <div><dt>Box</dt><dd id="bBox">€0</dd></div>
+            <div><dt>Delivery</dt><dd id="bShip">€0</dd></div>
+            <div class="total"><dt>Total</dt><dd id="bTotal">€0</dd></div>
+          </dl>
+          <button class="btn btn--primary btn--lg btn--block" type="button" id="bAdd" data-magnetic><span id="bAddLabel">Add 12 more</span></button>
+          <p class="bbox__basket" id="bBasket" hidden></p>
+          <p class="bbox__foot"><svg class="ic" aria-hidden="true"><use href="#i-cold"/></svg> Ships frozen, Monday to Thursday.</p>
+        </div>
+        <figure class="build__photo">
+          <img src="assets/box-top.webp" width="800" height="1000" alt="A white tray box holding twelve mochi ice creams in eight colours, seen from above on a yellow background." loading="lazy" decoding="async">
+        </figure>
+      </aside>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+</section>
+
+<!-- ============ 5. DELIVERY ============ -->
+<section class="delivery" id="delivery" aria-labelledby="delivery-title">
+  <div class="wrap">
+    <header class="section-head" data-reveal>
+      <p class="eyebrow">Delivery</p>
+      <h2 id="delivery-title" class="h2">Frozen when it leaves. Frozen when it lands.</h2>
+      <p class="lede">Every box travels in a thick foam shell with cold packs on the sides. It keeps its chill for three days, and most boxes arrive the next morning.</p>
+    </header>
+
+    <div class="dl">
+      <figure class="dl__photo" id="dlPhoto">
+        <img src="assets/cold-box.webp" width="800" height="1000" alt="An open white foam shipping box with cold vapour rising, a tray of pastel mochi and a blue cold pack inside." loading="lazy" decoding="async">
+        <button class="hot" type="button" style="--x:17%;--y:52%" aria-expanded="false" aria-controls="hot1"><span class="hot__dot" aria-hidden="true"></span><span class="sr-only">Foam shell</span></button>
+        <button class="hot" type="button" style="--x:44%;--y:57%" aria-expanded="false" aria-controls="hot2"><span class="hot__dot" aria-hidden="true"></span><span class="sr-only">Mochi tray</span></button>
+        <button class="hot" type="button" style="--x:75%;--y:50%" aria-expanded="false" aria-controls="hot3"><span class="hot__dot" aria-hidden="true"></span><span class="sr-only">Cold pack</span></button>
+        <p class="hot__tip" id="hot1" role="tooltip" hidden style="--x:17%;--y:52%"><strong>Foam shell</strong> 5 cm thick, so the cold stays in and the summer stays out.</p>
+        <p class="hot__tip" id="hot2" role="tooltip" hidden style="--x:44%;--y:57%"><strong>Snug tray</strong> Every mochi has its own cup, so nothing bumps or squashes.</p>
+        <p class="hot__tip" id="hot3" role="tooltip" hidden style="--x:75%;--y:50%"><strong>Cold packs</strong> Frozen to -30°C, sealed, and reusable. Keep them for your lunchbox.</p>
+        <figcaption class="dl__cap">Tap the dots.</figcaption>
+      </figure>
+
+      <div class="dl__side">
+        <div class="clock card" id="clock">
+          <h3 class="clock__title">The cold clock</h3>
+          <p class="clock__sub">Drag to see how the inside of your box behaves after it leaves us.</p>
+          <div class="clock__stage">
+            <div class="clock__mochi" aria-hidden="true">
+              <svg viewBox="0 0 100 100" id="clockMochi"><use href="#mochi" style="--m:#FFC7D8;--sp:#fff"/></svg>
+              <span class="clock__frost"></span>
+            </div>
+            <div class="clock__read">
+              <output class="clock__temp" id="clockTemp" for="clockRange">-20°C</output>
+              <p class="clock__state" id="clockState" role="status" aria-live="polite">Frozen solid</p>
+            </div>
+          </div>
+          <svg class="clock__graph" viewBox="0 0 300 120" aria-hidden="true" id="clockGraph">
+            <rect x="0" y="0" width="300" height="52" fill="#FF5A4E" opacity=".14"/>
+            <line x1="0" y1="52" x2="300" y2="52" stroke="#2A1420" stroke-dasharray="4 5" opacity=".5"/>
+            <text x="6" y="36" text-anchor="start" font-size="11" fill="#2A1420" font-weight="700">too soft above this line</text>
+            <path id="clockLine" d="M0 104C60 102 120 92 180 78S260 46 300 30" fill="none" stroke="#2A1420" stroke-width="4" stroke-linecap="round"/>
+            <circle id="clockDot" cx="0" cy="104" r="8" fill="#FF5A4E" stroke="#2A1420" stroke-width="4"/>
+          </svg>
+          <label class="clock__label" for="clockRange">Hours since dispatch: <strong id="clockHours">0</strong></label>
+          <input class="range" type="range" id="clockRange" min="0" max="72" step="1" value="0" aria-valuetext="0 hours since dispatch, -20 degrees, frozen solid">
+          <p class="clock__hint">Tested to 72 hours. Most boxes arrive within 24.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="route" id="route">
+      <svg viewBox="0 0 1000 150" class="route__svg" aria-hidden="true" preserveAspectRatio="xMidYMid meet">
+        <path id="routePath" d="M125 90H875" fill="none" stroke="#FFF1DC" stroke-width="6" stroke-dasharray="2 16" stroke-linecap="round" opacity=".7"/>
+        <g class="route__stops">
+          <circle cx="125" cy="90" r="16" fill="#FFDA3D" stroke="#2A1420" stroke-width="5"/>
+          <circle cx="375" cy="90" r="16" fill="#FFA3C0" stroke="#2A1420" stroke-width="5"/>
+          <circle cx="625" cy="90" r="16" fill="#B5DA57" stroke="#2A1420" stroke-width="5"/>
+          <circle cx="875" cy="90" r="16" fill="#A784E8" stroke="#2A1420" stroke-width="5"/>
+        </g>
+        <g id="routeTruck" transform="translate(125 40)">
+          <rect x="-34" y="-6" width="68" height="54" rx="14" fill="#FF5A4E" stroke="#2A1420" stroke-width="5"/>
+          <use href="#i-truck" x="-20" y="4" width="40" height="40" style="color:#2A1420"/>
+        </g>
+      </svg>
+      <ol class="route__labels">
+        <li><strong>Our kitchen</strong><span>Packed Mon to Thu</span></li>
+        <li><strong>Cold depot</strong><span>Sorted at -20°C</span></li>
+        <li><strong>Courier</strong><span>Next-day, tracked</span></li>
+        <li><strong>Your door</strong><span>Straight to the freezer</span></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 6. REVIEWS ============ -->
+<section class="reviews" id="reviews" aria-labelledby="reviews-title">
+  <div class="wrap reviews__grid">
+    <div class="reviews__intro" data-reveal>
+      <p class="eyebrow">Reviews</p>
+      <h2 id="reviews-title" class="h2">People say nice things.</h2>
+      <p class="score"><span class="score__n" id="scoreN" data-to="4.9">4.9</span><span class="stars" role="img" aria-label="4.9 out of 5 stars"><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg></span></p>
+      <p class="score__sub">Average from 2,318 boxes delivered.</p>
+      <figure class="reviews__photo">
+        <img src="assets/bite.webp" width="800" height="1000" alt="A hand holding a matcha mochi ice cream with a bite taken out, showing white ice cream inside." loading="lazy" decoding="async">
+      </figure>
+    </div>
+
+    <ul class="cards" role="list">
+      <li class="rev rev--yellow">
+        <span class="stars" role="img" aria-label="5 out of 5 stars"><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg></span>
+        <blockquote><p>It arrived rock hard, and eight minutes later the matcha one was perfect. I have now ordered for my whole office.</p></blockquote>
+        <p class="rev__who"><strong>Ilse V.</strong> Utrecht <span class="rev__tag">Matcha</span></p>
+      </li>
+      <li class="rev rev--pink">
+        <span class="stars" role="img" aria-label="5 out of 5 stars"><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg></span>
+        <blockquote><p>Got the 12 for a birthday. Nobody left the kitchen until the ube was gone. The box even survived a weekend of my flatmate's cooking.</p></blockquote>
+        <p class="rev__who"><strong>Tomás R.</strong> Antwerp <span class="rev__tag">Ube</span></p>
+      </li>
+      <li class="rev rev--lilac">
+        <span class="stars" role="img" aria-label="4 out of 5 stars"><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic ic--off"><use href="#i-star"/></svg></span>
+        <blockquote><p>The salted caramel is dangerous. Four stars only because I wish the biggest box was even bigger.</p></blockquote>
+        <p class="rev__who"><strong>Hanne K.</strong> Cologne <span class="rev__tag">Salted caramel</span></p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ 7. SUBSCRIBE ============ -->
+<section class="subscribe" id="subscribe" aria-labelledby="sub-title">
+  <div class="wrap sub__grid">
+    <div class="sub__copy" data-reveal>
+      <p class="eyebrow eyebrow--dark">Subscribe</p>
+      <h2 id="sub-title" class="h2">A box a month, and one flavour you didn't pick.</h2>
+      <p class="lede">Choose your favourites once. We add a seasonal mystery flavour every month, and you save 15% on every box. Skip or pause whenever you like.</p>
+      <figure class="sub__photo">
+        <img src="assets/poke.webp" width="800" height="800" alt="A fingertip pressing a deep dimple into a soft pink mochi." loading="lazy" decoding="async">
+        <span class="sub__sticker" aria-hidden="true">-15%</span>
+      </figure>
+    </div>
+
+    <div class="plan card" id="plan" data-reveal>
+      <fieldset class="toggle" id="planToggle">
+        <legend class="sr-only">Billing</legend>
+        <span class="toggle__pill" aria-hidden="true"></span>
+        <label><input type="radio" name="billing" value="once"><span>One-off</span></label>
+        <label><input type="radio" name="billing" value="monthly" checked><span>Monthly</span></label>
+      </fieldset>
+
+      <fieldset class="plan__sizes" id="planSizes">
+        <legend class="sr-only">Box size</legend>
+      </fieldset>
+
+      <p class="plan__name" id="planName">The Monthly 12</p>
+      <p class="plan__price"><span class="plan__now" id="planNow">€28.90</span><s class="plan__was" id="planWas">€34</s><span class="plan__per" id="planPer">/ month</span></p>
+
+      <ul class="perks" id="perks">
+        <li data-perk="save"><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg><span>15% off every box</span></li>
+        <li data-perk="mystery"><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg><span>A seasonal mystery flavour, every month</span></li>
+        <li data-perk="ship"><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg><span>Free delivery, always</span></li>
+        <li data-perk="skip"><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg><span>Skip, swap or pause in two taps</span></li>
+        <li data-perk="first"><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg><span>First pick of new flavours</span></li>
+      </ul>
+
+      <a class="btn btn--dark btn--lg btn--block" href="#build" id="planCta" data-magnetic><span>Start my monthly box</span><svg class="ic" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+      <p class="plan__fine" id="planFine">Cancel any time. Charged the day your box ships.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 8. FAQ ============ -->
+<section class="faq" id="faq" aria-labelledby="faq-title">
+  <div class="wrap faq__grid">
+    <header class="faq__head" data-reveal>
+      <p class="eyebrow">Questions</p>
+      <h2 id="faq-title" class="h2">Things people ask us.</h2>
+      <p class="lede">Something missing? Write to <a class="link" href="mailto:hello@mochimochi.example">hello@mochimochi.example</a> and a real person answers.</p>
+    </header>
+
+    <div class="acc" id="acc">
+      <div class="acc__item">
+        <h3><button class="acc__btn" type="button" aria-expanded="true" aria-controls="a1" id="q1"><span>How does frozen delivery work?</span><svg class="ic" aria-hidden="true"><use href="#i-plus"/></svg></button></h3>
+        <div class="acc__panel" id="a1" role="region" aria-labelledby="q1"><div><p>We pack your mochi at -25°C in a foam shell with two frozen cold packs. A courier brings it the next day, and the box stays properly cold for up to 72 hours. When it arrives, put the mochi straight in your freezer.</p></div></div>
+      </div>
+      <div class="acc__item">
+        <h3><button class="acc__btn" type="button" aria-expanded="false" aria-controls="a2" id="q2"><span>How do I eat mochi ice cream?</span><svg class="ic" aria-hidden="true"><use href="#i-plus"/></svg></button></h3>
+        <div class="acc__panel" id="a2" role="region" aria-labelledby="q2"><div><p>Take it out of the freezer and wait five to eight minutes. The dough goes soft and stretchy, the ice cream stays cold. Eat it with your hands. Do not put it back once it has softened.</p></div></div>
+      </div>
+      <div class="acc__item">
+        <h3><button class="acc__btn" type="button" aria-expanded="false" aria-controls="a3" id="q3"><span>How long do they keep?</span><svg class="ic" aria-hidden="true"><use href="#i-plus"/></svg></button></h3>
+        <div class="acc__panel" id="a3" role="region" aria-labelledby="q3"><div><p>Three months in a freezer at -18°C or colder. The best-before date is printed on the tray. After that they are still safe, but the dough starts to dry.</p></div></div>
+      </div>
+      <div class="acc__item">
+        <h3><button class="acc__btn" type="button" aria-expanded="false" aria-controls="a4" id="q4"><span>What about allergies and diets?</span><svg class="ic" aria-hidden="true"><use href="#i-plus"/></svg></button></h3>
+        <div class="acc__panel" id="a4" role="region" aria-labelledby="q4"><div><p>Every mochi is gluten-free and vegetarian. All flavours contain milk. Black sesame contains sesame and ube contains coconut. We pack in a kitchen that also handles soy and tree nuts, so we cannot promise a nut-free box.</p></div></div>
+      </div>
+      <div class="acc__item">
+        <h3><button class="acc__btn" type="button" aria-expanded="false" aria-controls="a5" id="q5"><span>Can I skip or cancel a subscription?</span><svg class="ic" aria-hidden="true"><use href="#i-plus"/></svg></button></h3>
+        <div class="acc__panel" id="a5" role="region" aria-labelledby="q5"><div><p>Yes, any time and with no fee. Skip a month, swap flavours, or pause for up to six months from your account page. Change something up to 48 hours before your box ships.</p></div></div>
+      </div>
+      <div class="acc__item">
+        <h3><button class="acc__btn" type="button" aria-expanded="false" aria-controls="a6" id="q6"><span>What if my box arrives melted?</span><svg class="ic" aria-hidden="true"><use href="#i-plus"/></svg></button></h3>
+        <div class="acc__panel" id="a6" role="region" aria-labelledby="q6"><div><p>Send us a photo within 24 hours and we will send a new box, free. It has happened twice since we started.</p></div></div>
+      </div>
+      <div class="acc__item">
+        <h3><button class="acc__btn" type="button" aria-expanded="false" aria-controls="a7" id="q7"><span>Where do you deliver?</span><svg class="ic" aria-hidden="true"><use href="#i-plus"/></svg></button></h3>
+        <div class="acc__panel" id="a7" role="region" aria-labelledby="q7"><div><p>The Netherlands, Belgium, Luxembourg, Germany and France, with more on the way. Delivery is €5.90 for a box of 6, and free for 12 and 24.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="foot" id="footer">
+  <div class="wrap foot__grid">
+    <div class="foot__news">
+      <h2 class="foot__title">One email a month.<br>New flavour first.</h2>
+      <form class="news" id="news" novalidate>
+        <label for="email" class="news__label">Email address</label>
+        <div class="news__row">
+          <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required aria-describedby="newsMsg">
+          <button class="btn btn--primary" type="submit"><span>Join the list</span></button>
+        </div>
+        <p class="news__msg" id="newsMsg" role="status" aria-live="polite">No spam. Unsubscribe with one click.</p>
+      </form>
+    </div>
+    <nav class="foot__cols" aria-label="Footer">
+      <div>
+        <h3>Shop</h3>
+        <ul>
+          <li><a href="#build">Build your box</a></li>
+          <li><a href="#subscribe">Subscribe</a></li>
+          <li><a href="#flavours">Flavours</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Help</h3>
+        <ul>
+          <li><a href="#delivery">Delivery</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="mailto:hello@mochimochi.example">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Kitchen</h3>
+        <address>Mochimochi<br>Keileweg 14<br>3029 BS Rotterdam</address>
+      </div>
+    </nav>
+  </div>
+  <p class="foot__word" id="footWord" aria-hidden="true">mochimochi</p>
+  <div class="wrap foot__legal">
+    <p>© 2026 Mochimochi. A fictional brand, made for a design brief.</p>
+    <a href="#top" class="link">Back to top</a>
+  </div>
+</footer>
+
+<div class="obar" id="obar" aria-label="Box summary">
+  <div class="obar__t"><span class="obar__n" id="obarN">0 / 12</span><span class="obar__p" id="obarP">€0</span></div>
+  <button class="btn btn--primary btn--sm" type="button" id="obarBtn">Add 12 more</button>
+</div>
+<div class="cursor" id="cursor" aria-hidden="true"><span class="cursor__label" id="cursorLabel"></span></div>
+<div class="pops" id="pops" aria-hidden="true"></div>
+
+<script defer src="js/vendor/gsap.min.js"></script>
+<script defer src="js/vendor/ScrollTrigger.min.js"></script>
+<script defer src="js/vendor/lenis.min.js"></script>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
